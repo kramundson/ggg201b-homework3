@@ -70,8 +70,8 @@ python2 gather-counts.py
 
 # View differences between old and new files with diff
 # diff ../yeast.salmon-hw3.R ~/2017-ucdavis-igg201b/lab7/yeast.salmon.R > ../diff-yeast.salmon.txt
-cat ../diff-yeast.salmon.txt
-Rscript ../yeast.salmon-hw3.R
+cat ~/ggg201b-homework3/diff-yeast.salmon.txt
+Rscript ~/ggg201b-homework3/yeast.salmon-hw3.R
 
 ##11. Evaluate how many genes were gained and lost at 0.05 FDR, compare to lab8
 
@@ -84,7 +84,7 @@ awk 'BEGIN {FS = ","} ; {if ($5 <= 0.05) print $0}' ~/2017-ucdavis-igg201b/lab8/
 # 4030
 
 # sanity check
-grep ",\"FDR" yeast-edgeR.csv
+grep ",\"FDR" ./yeast-edgeR.csv
 grep ",\"FDR" ~/2017-ucdavis-igg201b/lab8/yeast-edgeR.csv
 # both return only the header row
 
