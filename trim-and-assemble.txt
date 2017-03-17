@@ -31,8 +31,8 @@ curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR458/ERR458495/ERR458495.fastq.gz
 #3. I picked four entries by eye from the table. All are also from BioRep1, as are the other six from lab8.
 
 # Rows chosen:
-#ERR458498 (row 9, WT)
-#ERR458499 (row 8, WT)
+#ERR458498 (row 6, WT)
+#ERR458499 (row 7, WT)
 #ERR458506 (row 15, mut)
 #ERR458507 (row 16, mut)
 
